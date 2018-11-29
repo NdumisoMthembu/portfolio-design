@@ -9,6 +9,7 @@
   -webkit-transition: width 2s, height 4s;
   /* Safari */
   transition: width 2s, height 4s;
+  animation: slideMenu 0.5s forwards 0s linear;
 
 
   nav {
@@ -52,4 +53,28 @@
 
 
   }
+}
+
+
+@keyframes slideMenu{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+        }
+    24%{
+        transform: translateX(-70px);
+        opacity: 0.3;
+        }
+    50%{
+        transform: translateX(-40px);
+        opacity: 0.6;
+        }
+    79%{
+        transform: translateX(-20px);
+        opacity: 0.8;
+        }
+    100%{
+        transform: rotate(xx) translateX(0);
+        opacity: 1;
+        }
 }
