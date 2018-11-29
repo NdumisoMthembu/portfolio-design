@@ -6,15 +6,12 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
+  showMobleMenu: boolean = false;
   constructor() {}
 
   ngOnInit() {
   }
   toggleMenu() {
-    let menu = document.querySelector("nav");
-    let ul = document.querySelector("nav");
-    menu.classList.toggle("active");
-    ul.style.display = "block";
-
+   this.showMobleMenu = !this.showMobleMenu ;
   }
 }

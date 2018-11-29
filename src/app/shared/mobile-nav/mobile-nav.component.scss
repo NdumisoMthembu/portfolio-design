@@ -1,0 +1,55 @@
+.nav-container {
+  position: absolute;
+  display: block;
+  background: #fff;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  -webkit-transition: width 2s, height 4s;
+  /* Safari */
+  transition: width 2s, height 4s;
+
+
+  nav {
+    background: #fff;
+
+    ul {
+      //   display: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          display: block;
+          padding: 1.5em 3em;
+          background-color: rgba(255, 255, 255, 0.3);
+          color: #000;
+          widows: 100%;
+
+          &:hover {
+            background: #fff;
+          }
+        }
+      }
+
+      @media only screen and (min-width:750px) {
+        display: block;
+        /* margin: 2em; */
+        position: relative !important;
+        background: none !important;
+        width: 100% !important;
+      }
+    }
+
+    @media only screen and (min-width:750px) {
+      background: none;
+    }
+
+
+  }
+}

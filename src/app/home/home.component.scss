@@ -84,18 +84,6 @@
 
     }
 
-    .active {
-      position: absolute;
-      display: block;
-      background: #fff;
-      width: 50%;
-      left: 0;
-      top: 0;
-      height: 100%;
-      -webkit-transition: width 2s, height 4s;
-      /* Safari */
-      transition: width 2s, height 4s;
-    }
 
 
 
@@ -155,6 +143,11 @@
         opacity: 0;
       }
 
+    }
+    app-mobile-nav{
+        @media only screen and (min-width:750px) {
+display: none;
+        }
     }
     @media only screen and (min-width:750px) {
 
