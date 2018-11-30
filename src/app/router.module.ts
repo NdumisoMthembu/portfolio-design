@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-
 const routes: Routes = [
   {path: '', loadChildren:'./home/home.module#HomeModule'}, 
+  {path: 'slider', loadChildren:'./slider/slider.module#SliderModule'}, 
   { path: '**', redirectTo: 'not-found' }
 ];
 @NgModule({
