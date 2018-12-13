@@ -1,36 +1,3 @@
-/* .bg-banner{
-    width: 100%;
-    height: 500px;
-    margin: 0px auto;
-    background-image: url(../assets/1.png);
-    background-repeat: no-repeat;
-    background-position: 120% 0px;
-    animation: move-left 90s infinite;
-}
-
-@keyframes  move-left {
-    from{
-        background-position: 150% 0px;
-    }
-    to{
-        background-position: -20% 0px;
-
-    }
-} */
-
-  .back-home{
-    position: absolute;
-    z-index: 100;
-    left: 0;
-    top: 40%;
-    background: #52085a;
-    padding: 1%;
-    border-radius: 10px;
-a{
-    text-decoration: none;
-    color:white;
-}
-  }
 
 .wave{
     height: 400px;

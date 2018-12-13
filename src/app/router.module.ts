@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
+
 const routes: Routes = [
   {path: '', loadChildren:'./home/home.module#HomeModule'}, 
   {path: 'slider', loadChildren:'./slider/slider.module#SliderModule'}, 
   {path: 'css-waves', loadChildren:'./css-wave/scc-wave.module#CssWaveModule'}, 
+  {path: 'flying-plane', loadChildren:'./flying-plane/flying-plane.module#FlyingPlaneModule'}, 
   { path: '**', redirectTo: 'not-found' }
 ];
 @NgModule({

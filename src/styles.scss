@@ -17,3 +17,18 @@ body {
     margin: 0;
     font-family: 'Trebuchet MS';
 }
+
+
+.back-home{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 40%;
+    background: #52085a;
+    padding: 1%;
+    border-radius: 10px;
+a{
+    text-decoration: none;
+    color:white;
+}
+  }
